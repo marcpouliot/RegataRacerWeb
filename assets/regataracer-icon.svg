@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">RegataRacer</title>
+  <desc id="desc">Icône de chronomètre de départ de régate avec voile et bouée.</desc>
+  <defs>
+    <linearGradient id="sea" x1="18" x2="110" y1="96" y2="36" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#007c89"/>
+      <stop offset="1" stop-color="#1fb6c9"/>
+    </linearGradient>
+    <linearGradient id="sail" x1="51" x2="88" y1="22" y2="92" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d7eef2"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#062a33"/>
+  <circle cx="64" cy="64" r="48" fill="none" stroke="#d9f7fb" stroke-width="8"/>
+  <path d="M31 86c10 7 22 10 35 8 13-1 23-7 32-16 1 12-7 22-20 27-16 6-36 2-47-8z" fill="url(#sea)"/>
+  <path d="M64 24v68" stroke="#f7fbfc" stroke-width="5" stroke-linecap="round"/>
+  <path d="M69 29c17 16 28 36 33 60-13-5-24-10-33-17z" fill="url(#sail)"/>
+  <path d="M58 39c-10 15-17 31-20 48 9-3 16-7 20-12z" fill="#f7fbfc"/>
+  <circle cx="96" cy="88" r="9" fill="#f35b2f"/>
+  <path d="M83 43h14M90 36v14" stroke="#f35b2f" stroke-width="5" stroke-linecap="round"/>
+</svg>
