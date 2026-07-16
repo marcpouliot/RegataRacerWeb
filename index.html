@@ -4,7 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>RegataRacer | Chronomètre de départ de régate</title>
-    <meta name="description" content="RegataRacer est une application de chronomètre de départ de régate conçue pour garder le compte à rebours clair, visible et prêt sur l'eau.">
+    <meta name="description" content="RegataRacer est un chronomètre de départ de régate simple, lisible et sonore, avec séquences de 5 et 10 minutes, sans GPS.">
+    <meta name="theme-color" content="#08111f">
+    <link rel="canonical" href="https://marcpouliot.github.io/RegataRacerWeb/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fr_CA">
+    <meta property="og:title" content="RegataRacer — Le départ, à la seconde près">
+    <meta property="og:description" content="Un chronomètre de départ de régate clair et sonore, conçu pour rester concentré sur la ligne.">
+    <meta property="og:url" content="https://marcpouliot.github.io/RegataRacerWeb/">
+    <meta property="og:image" content="https://marcpouliot.github.io/RegataRacerWeb/assets/regataracer-heroWithName.png">
+    <meta property="og:image:width" content="1794">
+    <meta property="og:image:height" content="877">
+    <meta property="og:image:alt" content="RegataRacer devant une flotte de voiliers au départ">
     <link rel="icon" href="assets/regataracer-icon.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
   </head>
@@ -16,6 +27,7 @@
       </a>
       <nav class="nav" aria-label="Navigation principale">
         <a href="#fonctionnalites">Fonctions</a>
+        <a href="#captures">Captures</a>
         <a href="#utilisation">Utilisation</a>
         <a href="privacy.html">Confidentialité</a>
       </nav>
@@ -25,103 +37,142 @@
       <section class="hero">
         <div class="hero-inner">
           <p class="eyebrow">Chronomètre de départ de régate</p>
-          <h1>RegataRacer</h1>
-          <p class="lead">Une application simple et lisible pour suivre les séquences de départ sur l’eau, garder l’écran actif et rester concentré sur la ligne.</p>
+          <h1>Le départ, à la seconde près.</h1>
+          <p class="lead">RegataRacer vous donne un compte à rebours immense, des signaux sonores aux moments clés et les commandes essentielles pour rester concentré sur votre ligne de départ.</p>
+          <div class="hero-points" aria-label="Points forts">
+            <span>Sans GPS</span>
+            <span>5 ou 10 minutes</span>
+            <span>Français et anglais</span>
+          </div>
           <div class="hero-actions">
-            <a class="button primary" href="#utilisation" aria-label="Lire les instructions d'utilisation">Utiliser l’app</a>
-            <a class="button" href="privacy.html" aria-label="Lire la politique de confidentialité">Confidentialité</a>
+            <a class="button primary" href="#captures">Voir l’application</a>
+            <a class="button" href="#acces">Accès Premium</a>
           </div>
         </div>
       </section>
 
       <section class="section alt" id="fonctionnalites">
         <div class="section-header">
-          <h2>Conçu pour le départ</h2>
-          <p>RegataRacer va droit au but: un compte à rebours visible, des repères de séquence faciles à suivre et aucune collecte de données personnelles.</p>
+          <p class="section-kicker">Pensé pour l’eau</p>
+          <h2>Tout ce qu’il faut avant le coup de canon</h2>
+          <p>Une interface volontairement simple, sans carte ni distraction, qui reste lisible sur un téléphone comme sur une tablette.</p>
         </div>
         <div class="feature-grid">
           <article class="feature">
-            <span class="icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 2h6M12 2v3"/></svg>
-            </span>
-            <h3>Compte à rebours clair</h3>
-            <p>Suivez le temps restant avant le départ avec une interface pensée pour être lisible rapidement en situation de régate.</p>
+            <span class="icon" aria-hidden="true">05:00</span>
+            <h3>Départ en un geste</h3>
+            <p>Lancez immédiatement une séquence de 5 ou 10 minutes, ou armez le chrono selon l’heure officielle du comité.</p>
           </article>
           <article class="feature">
-            <span class="icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 19c4 2 12 2 16 0M5 15l7-12 7 12M12 3v13M7 12h10"/></svg>
-            </span>
-            <h3>Séquence de course</h3>
-            <p>Gardez les signaux importants à portée de vue pour anticiper chaque étape avant la ligne de départ.</p>
+            <span class="icon icon-symbol" aria-hidden="true">◖</span>
+            <h3>Signaux sonores</h3>
+            <p>Recevez des repères à −5, −4, −1 et 0 minute, avec le choix entre un son de corne et un bip.</p>
           </article>
           <article class="feature">
-            <span class="icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2M9 6h6"/></svg>
-            </span>
-            <h3>Écran actif</h3>
-            <p>L’application peut garder l’écran allumé pendant le compte à rebours afin d’éviter une mise en veille au mauvais moment.</p>
+            <span class="icon icon-symbol" aria-hidden="true">Aa</span>
+            <h3>Bilingue</h3>
+            <p>Passez du français à l’anglais directement dans les paramètres de l’application.</p>
+          </article>
+          <article class="feature">
+            <span class="icon icon-symbol" aria-hidden="true">◉</span>
+            <h3>Écran toujours visible</h3>
+            <p>Activez « Garder l’écran allumé » pour éviter la mise en veille pendant la séquence.</p>
+          </article>
+          <article class="feature">
+            <span class="icon icon-symbol" aria-hidden="true">⌁</span>
+            <h3>Arrivée chronométrée</h3>
+            <p>Arrêtez le chrono à l’arrivée et obtenez immédiatement le temps écoulé depuis le départ.</p>
+          </article>
+          <article class="feature">
+            <span class="icon icon-symbol" aria-hidden="true">⊘</span>
+            <h3>Sans GPS, sans compte</h3>
+            <p>Aucune position à partager et aucun compte utilisateur à créer pour utiliser RegataRacer.</p>
           </article>
         </div>
       </section>
 
-      <section class="section" id="utilisation">
-        <div class="app-panel">
-          <div class="phone" aria-label="Aperçu de l'application RegataRacer">
-            <div class="screen">
-              <div class="statusbar">
-                <span>RegataRacer</span>
-                <span>Départ</span>
-              </div>
-              <div class="countdown" aria-hidden="true">04:32</div>
-              <p>Prochaine étape: signal préparatoire</p>
-              <div class="sequence" aria-hidden="true">
-                <span>5 min</span>
-                <span class="active">4 min</span>
-                <span>1 min</span>
-              </div>
-              <button class="screen-button" type="button">Démarrer</button>
-            </div>
-          </div>
+      <section class="section screenshots-section" id="captures">
+        <div class="section-header centered">
+          <p class="section-kicker">Version Android actuelle</p>
+          <h2>Une interface faite pour être lue vite</h2>
+          <p>Captures réalisées directement sur une tablette avec la version actuelle de RegataRacer.</p>
+        </div>
+        <div class="screenshot-grid">
+          <figure class="screenshot-card">
+            <img src="assets/app-ready.png" alt="Écran principal de RegataRacer prêt pour une séquence de départ" loading="lazy">
+            <figcaption><strong>Préparez le départ.</strong> Choisissez l’heure officielle ou lancez une séquence de 5 ou 10 minutes.</figcaption>
+          </figure>
+          <figure class="screenshot-card featured-shot">
+            <img src="assets/app-countdown.png" alt="Compte à rebours plein écran de RegataRacer" loading="lazy">
+            <figcaption><strong>Gardez l’œil sur le temps.</strong> Le compte à rebours plein écran annonce aussi le prochain signal.</figcaption>
+          </figure>
+          <figure class="screenshot-card">
+            <img src="assets/app-settings.png" alt="Paramètres de langue, son et écran de RegataRacer" loading="lazy">
+            <figcaption><strong>Adaptez l’application.</strong> Langue, type de son et maintien de l’écran sont à portée de main.</figcaption>
+          </figure>
+        </div>
+      </section>
 
+      <section class="section alt" id="utilisation">
+        <div class="section-header">
+          <p class="section-kicker">Mode d’emploi</p>
+          <h2>Du quai à la ligne en quatre étapes</h2>
+        </div>
+        <div class="steps-grid">
+          <article class="step">
+            <span class="step-number">1</span>
+            <h3>Préparez l’appareil</h3>
+            <p>Ouvrez RegataRacer, placez l’écran bien en vue et activez le maintien de l’écran dans les paramètres.</p>
+          </article>
+          <article class="step">
+            <span class="step-number">2</span>
+            <h3>Choisissez la séquence</h3>
+            <p>Programmez l’heure officielle du départ ou choisissez un lancement immédiat à −5:00 ou −10:00.</p>
+          </article>
+          <article class="step">
+            <span class="step-number">3</span>
+            <h3>Suivez les signaux</h3>
+            <p>L’écran affiche le temps restant et le prochain son pour vous aider à anticiper chaque phase.</p>
+          </article>
+          <article class="step">
+            <span class="step-number">4</span>
+            <h3>Enregistrez l’arrivée</h3>
+            <p>Appuyez sur « Arrêter à l’arrivée » pour connaître le temps écoulé depuis le signal de départ.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section access-section" id="acces">
+        <div class="access-panel">
           <div>
-            <div class="section-header">
-              <h2>Instructions d’utilisation</h2>
-              <p>Préparez la séquence avant de quitter le quai, puis lancez le compte à rebours lorsque le comité donne le signal.</p>
-            </div>
-            <div class="instructions">
-              <article class="step">
-                <span class="step-number">1</span>
-                <h3>Ouvrir RegataRacer</h3>
-                <p>Lancez l’application avant le départ et placez le téléphone à un endroit visible et stable dans le bateau.</p>
-              </article>
-              <article class="step">
-                <span class="step-number">2</span>
-                <h3>Choisir ou vérifier la durée</h3>
-                <p>Sélectionnez la séquence de départ souhaitée, par exemple 5 minutes, puis confirmez que le temps affiché correspond à la procédure de course.</p>
-              </article>
-              <article class="step">
-                <span class="step-number">3</span>
-                <h3>Démarrer au signal</h3>
-                <p>Appuyez sur démarrer au signal du comité. Gardez l’écran visible; RegataRacer peut empêcher la mise en veille pendant le compte à rebours.</p>
-              </article>
-              <article class="step">
-                <span class="step-number">4</span>
-                <h3>Suivre les repères</h3>
-                <p>Utilisez les indications de temps restant pour gérer les manoeuvres, la position sur la ligne et l’approche finale.</p>
-              </article>
-            </div>
-            <div class="section-actions">
-              <a class="button primary" href="#fonctionnalites">Voir les fonctions</a>
-              <a class="button" href="mailto:marc.pouliot.1@gmail.com">Contacter</a>
-            </div>
+            <p class="section-kicker light">Accès Premium</p>
+            <h2>Essayez toutes les fonctions pendant 21 jours.</h2>
+            <p>La version Android prévoit ensuite un achat unique pour conserver l’accès permanent. Aucun renouvellement automatique.</p>
+          </div>
+          <div class="access-card">
+            <strong>Google Play</strong>
+            <span>Publication en préparation</span>
+            <small>Essai complet de 21 jours · achat unique</small>
           </div>
         </div>
+      </section>
+
+      <section class="section contact-section">
+        <div>
+          <p class="section-kicker">Le projet vous intéresse?</p>
+          <h2>Suivez le développement de RegataRacer.</h2>
+          <p>Pour une question, une suggestion ou pour participer aux essais, écrivez-nous.</p>
+        </div>
+        <a class="button primary" href="mailto:regata.racer@gmail.com">regata.racer@gmail.com</a>
       </section>
     </main>
 
     <footer class="site-footer">
       <span>© 2026 RegataRacer</span>
-      <a href="privacy.html">Politique de confidentialité</a>
+      <div class="footer-links">
+        <a href="mailto:regata.racer@gmail.com">Contact</a>
+        <a href="privacy.html">Politique de confidentialité</a>
+      </div>
     </footer>
   </body>
 </html>
