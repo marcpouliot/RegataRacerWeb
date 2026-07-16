@@ -272,6 +272,16 @@ h2 {
   min-height: 232px;
 }
 
+.value-feature {
+  border-color: rgba(8, 125, 140, 0.3);
+  background: linear-gradient(145deg, #ffffff, #effbfc);
+}
+
+.value-feature .icon {
+  color: #fff;
+  background: var(--water);
+}
+
 .icon {
   min-width: 54px;
   height: 48px;
