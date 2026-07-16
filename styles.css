@@ -282,6 +282,31 @@ h2 {
   background: var(--water);
 }
 
+.sync-feature {
+  min-height: auto;
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 18px;
+  align-items: center;
+  border-color: rgba(240, 82, 45, 0.38);
+  background: linear-gradient(115deg, #fff7f4, #ffffff 65%);
+}
+
+.sync-feature .icon {
+  margin-bottom: 0;
+  color: #fff;
+  background: var(--signal);
+}
+
+.sync-feature h3 {
+  margin-bottom: 5px;
+}
+
+.sync-feature p {
+  margin-bottom: 0;
+}
+
 .icon {
   min-width: 54px;
   height: 48px;
@@ -601,6 +626,15 @@ h3 {
   .feature,
   .step {
     min-height: auto;
+  }
+
+  .sync-feature {
+    grid-column: auto;
+    grid-template-columns: 1fr;
+  }
+
+  .sync-feature .icon {
+    margin-bottom: 4px;
   }
 
   .button {
