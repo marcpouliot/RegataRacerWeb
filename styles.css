@@ -389,12 +389,17 @@ h3 {
 
 .landscape-shot {
   grid-column: 1 / -1;
+  width: 100%;
+  max-width: none;
   border-color: rgba(47, 128, 237, 0.8);
 }
 
 .landscape-shot img {
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+  object-position: center;
+  background: #000;
 }
 
 .steps-grid {
@@ -601,6 +606,7 @@ h3 {
 
   .landscape-shot {
     grid-column: auto;
+    max-width: 100%;
   }
 
   .access-panel {
