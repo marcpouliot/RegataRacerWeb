@@ -327,7 +327,7 @@ h3 {
 .screenshot-grid {
   max-width: 1180px;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: clamp(16px, 3vw, 30px);
   align-items: start;
   margin: 0 auto;
@@ -362,9 +362,14 @@ h3 {
   color: #fff;
 }
 
-.featured-shot {
-  transform: translateY(-16px);
+.landscape-shot {
+  grid-column: 1 / -1;
   border-color: rgba(47, 128, 237, 0.8);
+}
+
+.landscape-shot img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 .steps-grid {
@@ -569,8 +574,8 @@ h3 {
     margin-left: auto;
   }
 
-  .featured-shot {
-    transform: none;
+  .landscape-shot {
+    grid-column: auto;
   }
 
   .access-panel {
